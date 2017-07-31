@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="576dp"
+        android:layout_height="295dp"
+        android:layout_marginRight="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Android_4_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:text="Android 4.0"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/A_IceCreamSandwich"
+                    android:layout_width="match_parent"
+                    android:layout_height="197dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ice_cream_sandwich" />
+
+                <TextView
+                    android:id="@+id/IceCreamSandwich"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ice Cream Sandwich"
+                    android:textAlignment="center"
+                    tools:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Android_4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:text="Android 4.1"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/A_JellyBean"
+                    android:layout_width="match_parent"
+                    android:layout_height="197dp"
+                    android:layout_weight="0.51"
+                    app:srcCompat="@drawable/jelly_bean" />
+
+                <TextView
+                    android:id="@+id/JellyBean"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jelly Bean"
+                    android:textAlignment="center"
+                    tools:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:background="@android:color/holo_red_light">
+
+                <TextView
+                    android:id="@+id/Android_4_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:text="Android 4.4"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/A_KitKat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.55"
+                    app:srcCompat="@drawable/kit_kat" />
+
+                <TextView
+                    android:id="@+id/KitKat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kit Kat"
+                    android:textAlignment="center"
+                    tools:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_light"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TextView
+                    android:id="@+id/Android_5_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:text="Android 5.0"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/A_Lollipop"
+                    android:layout_width="match_parent"
+                    android:layout_height="198dp"
+                    android:layout_weight="0.36"
+                    app:srcCompat="@drawable/lollypop" />
+
+                <TextView
+                    android:id="@+id/Lollipop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lollipop"
+                    android:textAlignment="center"
+                    tools:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
